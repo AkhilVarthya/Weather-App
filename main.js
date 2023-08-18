@@ -1,4 +1,4 @@
-const API_KEY = "process.env.API_KEY"; // your api key
+const API_KEY = process.env.API_KEY; // your api key
 
 const DAYS_OF_THE_WEEK = ["sun","mon","tue","wed","thu","fri","sat"];
 let selectedCityText;
